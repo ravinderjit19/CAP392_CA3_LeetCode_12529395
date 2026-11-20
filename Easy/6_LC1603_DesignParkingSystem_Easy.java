@@ -1,6 +1,4 @@
-
 class ParkingSystem {
-
     int big, medium, small;
 
     public ParkingSystem(int big, int medium, int small) {
@@ -10,7 +8,6 @@ class ParkingSystem {
     }
 
     public boolean addCar(int carType) {
-
         if (carType == 1 && big > 0) {
             big--;
             return true;
